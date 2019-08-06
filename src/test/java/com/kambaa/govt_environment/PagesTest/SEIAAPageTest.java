@@ -2,6 +2,7 @@ package com.kambaa.govt_environment.PagesTest;
 
 import java.io.IOException;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -22,5 +23,10 @@ public class SEIAAPageTest extends TestBase {
 		seiaapage.validateEnvironment_clearancelink();
 		System.out
 				.println("The Environment_clearance link is clicked Successfully");
+	}
+
+	@AfterMethod
+	public void teardown() {
+		driver.close();
 	}
 }

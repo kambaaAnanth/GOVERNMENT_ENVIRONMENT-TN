@@ -2,6 +2,7 @@ package com.kambaa.govt_environment.PagesTest;
 
 import java.io.IOException;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -22,5 +23,10 @@ public class Other_activitiesPageTest extends TestBase {
 	public void verifyOther_Activitieslink() {
 		otheractivity.validateotheractivitieslink();
 		System.out.println("The other activity link is clicked successfully");
+	}
+
+	@AfterMethod
+	public void teardown() {
+		driver.close();
 	}
 }
