@@ -20,21 +20,18 @@ public class PublicationPageTest extends TestBase {
 
 	@Test
 	public void verifyreportslink() {
-		publication.validatepublicationlink();
 		publication.validatereportslink();
 		System.out.println("The Reports link is clicked successfully");
 	}
 
 	@Test
 	public void verifyposterlink() {
-		publication.validatepublicationlink();
 		publication.validateposterlink();
 		System.out.println("The poster link is clicked successfully");
 	}
 
 	@Test
 	public void verifybookslink() {
-		publication.validatepublicationlink();
 		publication.validatebookslink();
 		System.out.println("The books link is clicked successfully");
 	}

@@ -23,7 +23,9 @@ public class CZMPages extends TestBase {
 	public CZMPages() {
 		PageFactory.initElements(driver, this);
 	}
-
+     public void validatecoastral_zone_managementlink(){
+    	 coastral_zone_managementlink.click();
+     }
 	public void validateczplink() {
 		coastral_zone_managementlink.click();
 		CZM.click();
