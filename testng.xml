@@ -1,24 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="GOVERNMENT_ENVIRONMENT_PROJECT" parallel="methods" thread-count="1" >
-  <test name="HOMEPAGETEST">
-    <classes>
-      <class name="com.kambaa.govt_environment.PagesTest.HomepageTest"/>
-    </classes>
-  </test> 
-   <test name="ABOUTUSPAGETEST">
-    <classes>
-      <class name="com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest"/>
-    </classes>
-  </test> 
-   <test name="CZMPAGETEST">
-    <classes>
-      <class name="com.kambaa.govt_environment.PagesTest.CZMPageTest"/>
-    </classes>
-  </test> 
-  <test name="EMATPAGETEST">
-    <classes>
-      <class name="com.kambaa.govt_environment.PagesTest.EMATPageTest"/>
-    </classes>
-  </test> 
+<suite name="GOVERNMENT_ENVIRONMENT_PROJECT" parallel="methods"
+	thread-count="1">
+	<test name="HOMEPAGETEST">
+		<classes>
+			<class name="com.kambaa.govt_environment.PagesTest.HomepageTest" />
+		</classes>
+	</test>
+	<test name="ABOUTUSPAGETEST">
+		<classes>
+			<class name="com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest" />
+		</classes>
+	</test>
+	<test name="CZMPAGETEST">
+		<classes>
+			<class name="com.kambaa.govt_environment.PagesTest.CZMPageTest" />
+		</classes>
+	</test>
+	<test name="EMATPAGETEST">
+		<classes>
+			<class name="com.kambaa.govt_environment.PagesTest.EMATPageTest" />
+		</classes>
+	</test>
+	<test name="CLIMATECHAGEPAGETEST">
+		<classes>
+			<class
+				name="com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest" />
+		</classes>
+	</test>
+	<test name="NGCPAGETEST">
+		<classes>
+			<class name="com.kambaa.govt_environment.PagesTest.NGCPageTest" />
+		</classes>
+	</test>
+	<test name="ENVISPAGETEST">
+		<classes>
+			<class name="com.kambaa.govt_environment.PagesTest.ENVISPagesTest" />
+		</classes>
+	</test>
+	<test name="SEIAAPAGETEST">
+		<classes>
+			<class name="com.kambaa.govt_environment.PagesTest.SEIAAPageTest" />
+		</classes>
+	</test>
+	<test name="Other_activitiesPAGETEST">
+		<classes>
+			<class
+				name="com.kambaa.govt_environment.PagesTest.Other_activitiesPageTest" />
+		</classes>
+	</test>
+	<test name="PublicationPAGETEST">
+		<classes>
+			<class name="com.kambaa.govt_environment.PagesTest.PublicationPageTest" />
+		</classes>
+	</test>
 </suite>
