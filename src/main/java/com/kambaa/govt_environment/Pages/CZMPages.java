@@ -26,24 +26,18 @@ public class CZMPages extends TestBase {
 
 	public void validateczplink() {
 		coastral_zone_managementlink.click();
-		driver.manage().timeouts()
-				.implicitlyWait(Testutils.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		CZM.click();
 	}
 
 	public void validatecdrrplink() {
 		coastral_zone_managementlink.click();
 		GISlink.click();
-		driver.manage().timeouts()
-				.implicitlyWait(Testutils.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		GIS_CDRRP.click();
 	}
 
 	public void validateiczmplink() {
 		coastral_zone_managementlink.click();
 		ICZMPlink.click();
-		driver.manage().timeouts()
-				.implicitlyWait(Testutils.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		ICZMP_BLUEFLAGBEACHPROGRAMME.click();
 	}
 }

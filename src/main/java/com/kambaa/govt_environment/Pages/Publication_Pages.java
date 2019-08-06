@@ -23,14 +23,17 @@ public class Publication_Pages extends TestBase {
 	}
 
 	public void validatereportslink() {
+		publicationlink.click();
 		reportslink.click();
 	}
 
 	public void validateposterlink() {
+		publicationlink.click();
 		posterlink.click();
 	}
 
 	public void validatebookslink() {
+		publicationlink.click();
 		bookslink.click();
 	}
 }

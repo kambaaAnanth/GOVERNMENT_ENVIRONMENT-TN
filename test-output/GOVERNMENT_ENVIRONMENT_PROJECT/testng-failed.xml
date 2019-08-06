@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [GOVERNMENT_ENVIRONMENT_PROJECT]">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [GOVERNMENT_ENVIRONMENT_PROJECT]" parallel="methods">
   <test name="HOMEPAGETEST">
     <classes>
       <class name="com.kambaa.govt_environment.PagesTest.HomepageTest"/>
@@ -16,17 +16,87 @@
       <class name="com.kambaa.govt_environment.PagesTest.CZMPageTest"/>
     </classes>
   </test> <!-- CZMPAGETEST -->
-  <test name="CZMPAGETEST(failed)">
+  <test name="EMATPAGETEST">
     <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.EMATPageTest"/>
+    </classes>
+  </test> <!-- EMATPAGETEST -->
+  <test name="CLIMATECHAGEPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest"/>
+    </classes>
+  </test> <!-- CLIMATECHAGEPAGETEST -->
+  <test name="NGCPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.NGCPageTest"/>
+    </classes>
+  </test> <!-- NGCPAGETEST -->
+  <test name="ENVISPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.ENVISPagesTest"/>
+    </classes>
+  </test> <!-- ENVISPAGETEST -->
+  <test name="SEIAAPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.SEIAAPageTest"/>
+    </classes>
+  </test> <!-- SEIAAPAGETEST -->
+  <test name="Other_activitiesPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.Other_activitiesPageTest"/>
+    </classes>
+  </test> <!-- Other_activitiesPAGETEST -->
+  <test name="PublicationPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.PublicationPageTest"/>
+    </classes>
+  </test> <!-- PublicationPAGETEST -->
+  <test name="CZMPAGETEST(failed)" parallel="methods">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.NGCPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.NGCPageTest -->
       <class name="com.kambaa.govt_environment.PagesTest.CZMPageTest">
         <methods>
           <include name="setup"/>
           <include name="teardown"/>
           <include name="verifyCDRRPlink"/>
-          <include name="verifyCZMlink"/>
           <include name="verifyICZMPlink"/>
         </methods>
       </class> <!-- com.kambaa.govt_environment.PagesTest.CZMPageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.SEIAAPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.SEIAAPageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.Other_activitiesPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.Other_activitiesPageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.ENVISPagesTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.ENVISPagesTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.EMATPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.EMATPageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.PublicationPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.PublicationPageTest -->
       <class name="com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest">
         <methods>
           <include name="setup"/>
@@ -39,6 +109,79 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- com.kambaa.govt_environment.PagesTest.HomepageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest -->
     </classes>
   </test> <!-- CZMPAGETEST(failed) -->
+  <test name="PublicationPAGETEST(failed)" parallel="methods">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.NGCPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.NGCPageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.SEIAAPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.SEIAAPageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.CZMPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.CZMPageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.Other_activitiesPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.Other_activitiesPageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.ENVISPagesTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.ENVISPagesTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.EMATPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.EMATPageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.PublicationPageTest">
+        <methods>
+          <include name="verifyreportslink"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verifybookslink"/>
+          <include name="verifyposterlink"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.PublicationPageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.HomepageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.HomepageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest -->
+    </classes>
+  </test> <!-- PublicationPAGETEST(failed) -->
 </suite> <!-- Failed suite [GOVERNMENT_ENVIRONMENT_PROJECT] -->
