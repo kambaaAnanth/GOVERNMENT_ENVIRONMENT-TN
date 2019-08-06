@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GOVERNMENT_ENVIRONMENT_PROJECT]">
+  <test name="HOMEPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.HomepageTest"/>
+    </classes>
+  </test> <!-- HOMEPAGETEST -->
+  <test name="ABOUTUSPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest"/>
+    </classes>
+  </test> <!-- ABOUTUSPAGETEST -->
+  <test name="CZMPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.CZMPageTest"/>
+    </classes>
+  </test> <!-- CZMPAGETEST -->
+  <test name="CZMPAGETEST(failed)">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.CZMPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifyCDRRPlink"/>
+          <include name="verifyCZMlink"/>
+          <include name="verifyICZMPlink"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.CZMPageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest -->
+      <class name="com.kambaa.govt_environment.PagesTest.HomepageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kambaa.govt_environment.PagesTest.HomepageTest -->
+    </classes>
+  </test> <!-- CZMPAGETEST(failed) -->
+</suite> <!-- Failed suite [GOVERNMENT_ENVIRONMENT_PROJECT] -->

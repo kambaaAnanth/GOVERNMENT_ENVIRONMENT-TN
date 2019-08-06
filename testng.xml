@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GOVERNMENT_ENVIRONMENT_PROJECT" parallel="methods" thread-count="1" >
+  <test name="HOMEPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.HomepageTest"/>
+    </classes>
+  </test> 
+   <test name="ABOUTUSPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest"/>
+    </classes>
+  </test> 
+   <test name="CZMPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.CZMPageTest"/>
+    </classes>
+  </test> 
+  <test name="EMATPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.EMATPageTest"/>
+    </classes>
+  </test> 
+</suite>
