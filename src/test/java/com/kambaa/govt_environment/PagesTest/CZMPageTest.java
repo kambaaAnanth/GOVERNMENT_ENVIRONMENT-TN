@@ -23,7 +23,11 @@ public class CZMPageTest extends TestBase {
 		czm.validateczplink();
 		System.out.println("The CZM Link is clicked successfully");
 	}
-
+    @Test
+    public void verifyGISlink(){
+    	czm.validateGISlink();
+    	System.out.println("The GIS Link is clicked successfully");
+    }
 	@Test
 	public void verifyCDRRPlink() {
 		czm.validatecdrrplink();
@@ -32,10 +36,14 @@ public class CZMPageTest extends TestBase {
 
 	@Test
 	public void verifyICZMPlink() {
-		czm.validateiczmplink();
+		czm.validateICZMPlink();
 		System.out.println("The ICZMP Link is clicked successfully");
 	}
-
+    @Test
+    public void verifyBLUEFLAGBEACHPROGRAMMElink(){
+    	czm.validateBLUEFLAGBEACHPROGRAMMElink();
+    	System.out.println("The BLUEFLAGBEACHPROGRAMME Link is clicked successfully");
+    }
 	@AfterMethod
 	public void teardown() {
 		driver.close();

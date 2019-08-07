@@ -30,7 +30,7 @@ public class NGCPageTest extends TestBase {
 	public void verifyeco_clubslink() {
 		ngcpage.validateNGClink();
 		ngcpage.validateeco_clubslink();
-		System.out.println("The eco_clubs is clicked Successfully");
+		System.out.println("The eco_clubs link is clicked Successfully");
 	}
 
 	@AfterMethod

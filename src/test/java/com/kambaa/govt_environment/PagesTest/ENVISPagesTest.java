@@ -22,28 +22,28 @@ public class ENVISPagesTest extends TestBase {
 	public void verifyAbout_ENVISlink() {
 		envispage.validateENVISLINK();
 		envispage.validateAbout_ENVISlink();
-		System.out.println("The About_ENVIS is clicked Successfully");
+		System.out.println("The About_ENVIS link is clicked Successfully");
 	}
 
 	@Test
 	public void verifySOERlink() {
 		envispage.validateENVISLINK();
 		envispage.validateSOERlink();
-		System.out.println("The verifySOER is clicked Successfully");
+		System.out.println("The verifySOER link is clicked Successfully");
 	}
 
 	@Test
 	public void verifyGSDPlink() {
 		envispage.validateENVISLINK();
 		envispage.validateGSDPlink();
-		System.out.println("The GSDP is clicked Successfully");
+		System.out.println("The GSDP link is clicked Successfully");
 	}
 
 	@Test
 	public void verifyGRIDlink() {
 		envispage.validateENVISLINK();
 		envispage.validateGRIDlink();
-		System.out.println("The GRID is clicked Successfully");
+		System.out.println("The GRID link is clicked Successfully");
 	}
 
 	@AfterMethod

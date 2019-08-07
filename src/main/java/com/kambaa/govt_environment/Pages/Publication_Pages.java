@@ -1,5 +1,6 @@
 package com.kambaa.govt_environment.Pages;
 
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -18,22 +19,33 @@ public class Publication_Pages extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void validatepublicationlink() {
-		publicationlink.click();
-	}
+	
 
 	public void validatereportslink() {
-		publicationlink.click();
-		reportslink.click();
+		try{
+		Testutils.action.moveToElement(publicationlink).build().perform();
+		Testutils.action.clickAndHold(reportslink).build().perform();
+		}catch(NullPointerException e){
+			e.printStackTrace();
+		}
+		
 	}
 
 	public void validateposterlink() {
-		publicationlink.click();
-		posterlink.click();
+		try{
+		Testutils.action.moveToElement(publicationlink).build().perform();
+		Testutils.action.clickAndHold(reportslink).build().perform();
+		}catch(NullPointerException e){
+			e.printStackTrace();
+		}
 	}
 
 	public void validatebookslink() {
-		publicationlink.click();
-		bookslink.click();
+		try{
+		Testutils.action.moveToElement(publicationlink).build().perform();
+		Testutils.action.clickAndHold(reportslink).build().perform();
+		}catch(NullPointerException e){
+			e.printStackTrace();
+		}
 	}
 }
