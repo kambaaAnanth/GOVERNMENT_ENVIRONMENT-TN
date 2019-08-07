@@ -1,9 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [GOVERNMENT_ENVIRONMENT_PROJECT]" parallel="methods">
+  <test name="HOMEPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.HomepageTest"/>
+    </classes>
+  </test> <!-- HOMEPAGETEST -->
+  <test name="ABOUTUSPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest"/>
+    </classes>
+  </test> <!-- ABOUTUSPAGETEST -->
+  <test name="CZMPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.CZMPageTest"/>
+    </classes>
+  </test> <!-- CZMPAGETEST -->
+  <test name="EMATPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.EMATPageTest"/>
+    </classes>
+  </test> <!-- EMATPAGETEST -->
+  <test name="CLIMATECHAGEPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest"/>
+    </classes>
+  </test> <!-- CLIMATECHAGEPAGETEST -->
+  <test name="NGCPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.NGCPageTest"/>
+    </classes>
+  </test> <!-- NGCPAGETEST -->
+  <test name="ENVISPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.ENVISPagesTest"/>
+    </classes>
+  </test> <!-- ENVISPAGETEST -->
+  <test name="SEIAAPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.SEIAAPageTest"/>
+    </classes>
+  </test> <!-- SEIAAPAGETEST -->
+  <test name="Other_activitiesPAGETEST">
+    <classes>
+      <class name="com.kambaa.govt_environment.PagesTest.Other_activitiesPageTest"/>
+    </classes>
+  </test> <!-- Other_activitiesPAGETEST -->
+  <test name="PublicationPAGETEST">
     <classes>
       <class name="com.kambaa.govt_environment.PagesTest.PublicationPageTest"/>
     </classes>
-  </test> <!-- Default test -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- PublicationPAGETEST -->
+</suite> <!-- Failed suite [GOVERNMENT_ENVIRONMENT_PROJECT] -->

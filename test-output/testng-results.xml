@@ -1,49 +1,409 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="30" passed="30">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="291927" started-at="2019-08-07T12:38:43Z" finished-at="2019-08-07T12:43:35Z">
+  <suite name="GOVERNMENT_ENVIRONMENT_PROJECT" duration-ms="2738159" started-at="2019-08-07T12:44:58Z" finished-at="2019-08-07T13:30:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="291927" started-at="2019-08-07T12:38:43Z" finished-at="2019-08-07T12:43:35Z">
-      <class name="com.kambaa.govt_environment.PagesTest.PublicationPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@6ea6d14e]" name="setup" is-config="true" duration-ms="132739" started-at="2019-08-07T18:08:43Z" finished-at="2019-08-07T18:10:56Z">
+    <test name="HOMEPAGETEST" duration-ms="264967" started-at="2019-08-07T12:44:58Z" finished-at="2019-08-07T12:49:23Z">
+      <class name="com.kambaa.govt_environment.PagesTest.HomepageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.HomepageTest@6ea6d14e]" name="setup" is-config="true" duration-ms="70280" started-at="2019-08-07T18:14:58Z" finished-at="2019-08-07T18:16:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifybookslink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@6ea6d14e]" name="verifybookslink" duration-ms="863" started-at="2019-08-07T18:10:56Z" finished-at="2019-08-07T18:10:57Z">
+        <test-method status="PASS" signature="homelinkclicktest()[pri:0, instance:com.kambaa.govt_environment.PagesTest.HomepageTest@6ea6d14e]" name="homelinkclicktest" duration-ms="55028" started-at="2019-08-07T18:16:09Z" finished-at="2019-08-07T18:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homelinkclicktest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.HomepageTest@6ea6d14e]" name="teardown" is-config="true" duration-ms="464" started-at="2019-08-07T18:17:04Z" finished-at="2019-08-07T18:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.HomepageTest@6ea6d14e]" name="setup" is-config="true" duration-ms="71440" started-at="2019-08-07T18:17:04Z" finished-at="2019-08-07T18:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifylogo()[pri:0, instance:com.kambaa.govt_environment.PagesTest.HomepageTest@6ea6d14e]" name="verifylogo" duration-ms="619" started-at="2019-08-07T18:18:16Z" finished-at="2019-08-07T18:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.HomepageTest@6ea6d14e]" name="teardown" is-config="true" duration-ms="946" started-at="2019-08-07T18:18:16Z" finished-at="2019-08-07T18:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.HomepageTest@6ea6d14e]" name="setup" is-config="true" duration-ms="65454" started-at="2019-08-07T18:18:17Z" finished-at="2019-08-07T18:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifytitle()[pri:0, instance:com.kambaa.govt_environment.PagesTest.HomepageTest@6ea6d14e]" name="verifytitle" duration-ms="48" started-at="2019-08-07T18:19:23Z" finished-at="2019-08-07T18:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.HomepageTest@6ea6d14e]" name="teardown" is-config="true" duration-ms="625" started-at="2019-08-07T18:19:23Z" finished-at="2019-08-07T18:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.kambaa.govt_environment.PagesTest.HomepageTest -->
+    </test> <!-- HOMEPAGETEST -->
+    <test name="ABOUTUSPAGETEST" duration-ms="188157" started-at="2019-08-07T12:49:24Z" finished-at="2019-08-07T12:52:32Z">
+      <class name="com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest@4cdbe50f]" name="setup" is-config="true" duration-ms="60077" started-at="2019-08-07T18:19:24Z" finished-at="2019-08-07T18:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyDOElink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest@4cdbe50f]" name="verifyDOElink" duration-ms="33023" started-at="2019-08-07T18:20:24Z" finished-at="2019-08-07T18:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDOElink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest@4cdbe50f]" name="teardown" is-config="true" duration-ms="559" started-at="2019-08-07T18:20:57Z" finished-at="2019-08-07T18:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest@4cdbe50f]" name="setup" is-config="true" duration-ms="63126" started-at="2019-08-07T18:20:58Z" finished-at="2019-08-07T18:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifylimk2()[pri:0, instance:com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest@4cdbe50f]" name="verifylimk2" duration-ms="30945" started-at="2019-08-07T18:22:01Z" finished-at="2019-08-07T18:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylimk2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest@4cdbe50f]" name="teardown" is-config="true" duration-ms="405" started-at="2019-08-07T18:22:32Z" finished-at="2019-08-07T18:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.kambaa.govt_environment.PagesTest.AboutuslinkpageTest -->
+    </test> <!-- ABOUTUSPAGETEST -->
+    <test name="CZMPAGETEST" duration-ms="423777" started-at="2019-08-07T12:52:32Z" finished-at="2019-08-07T12:59:36Z">
+      <class name="com.kambaa.govt_environment.PagesTest.CZMPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="setup" is-config="true" duration-ms="62571" started-at="2019-08-07T18:22:32Z" finished-at="2019-08-07T18:23:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyBLUEFLAGBEACHPROGRAMMElink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="verifyBLUEFLAGBEACHPROGRAMMElink" duration-ms="464" started-at="2019-08-07T18:23:35Z" finished-at="2019-08-07T18:23:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBLUEFLAGBEACHPROGRAMMElink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="teardown" is-config="true" duration-ms="462" started-at="2019-08-07T18:23:35Z" finished-at="2019-08-07T18:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="setup" is-config="true" duration-ms="65735" started-at="2019-08-07T18:23:36Z" finished-at="2019-08-07T18:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCDRRPlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="verifyCDRRPlink" duration-ms="308" started-at="2019-08-07T18:24:42Z" finished-at="2019-08-07T18:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCDRRPlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="teardown" is-config="true" duration-ms="890" started-at="2019-08-07T18:24:42Z" finished-at="2019-08-07T18:24:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="setup" is-config="true" duration-ms="61486" started-at="2019-08-07T18:24:43Z" finished-at="2019-08-07T18:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCZMlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="verifyCZMlink" duration-ms="31095" started-at="2019-08-07T18:25:44Z" finished-at="2019-08-07T18:26:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCZMlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="teardown" is-config="true" duration-ms="497" started-at="2019-08-07T18:26:15Z" finished-at="2019-08-07T18:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="setup" is-config="true" duration-ms="64404" started-at="2019-08-07T18:26:16Z" finished-at="2019-08-07T18:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyGISlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="verifyGISlink" duration-ms="33122" started-at="2019-08-07T18:27:20Z" finished-at="2019-08-07T18:27:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGISlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="teardown" is-config="true" duration-ms="850" started-at="2019-08-07T18:27:53Z" finished-at="2019-08-07T18:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="setup" is-config="true" duration-ms="67325" started-at="2019-08-07T18:27:54Z" finished-at="2019-08-07T18:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyICZMPlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="verifyICZMPlink" duration-ms="33633" started-at="2019-08-07T18:29:02Z" finished-at="2019-08-07T18:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyICZMPlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.CZMPageTest@75bd9247]" name="teardown" is-config="true" duration-ms="912" started-at="2019-08-07T18:29:35Z" finished-at="2019-08-07T18:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.kambaa.govt_environment.PagesTest.CZMPageTest -->
+    </test> <!-- CZMPAGETEST -->
+    <test name="EMATPAGETEST" duration-ms="390015" started-at="2019-08-07T12:59:36Z" finished-at="2019-08-07T13:06:06Z">
+      <class name="com.kambaa.govt_environment.PagesTest.EMATPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.EMATPageTest@1134affc]" name="setup" is-config="true" duration-ms="68020" started-at="2019-08-07T18:29:36Z" finished-at="2019-08-07T18:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyECORESTORATIONlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.EMATPageTest@1134affc]" name="verifyECORESTORATIONlink" duration-ms="31142" started-at="2019-08-07T18:30:44Z" finished-at="2019-08-07T18:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyECORESTORATIONlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.EMATPageTest@1134affc]" name="teardown" is-config="true" duration-ms="219" started-at="2019-08-07T18:31:16Z" finished-at="2019-08-07T18:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.EMATPageTest@1134affc]" name="setup" is-config="true" duration-ms="63817" started-at="2019-08-07T18:31:16Z" finished-at="2019-08-07T18:32:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyEMATlink1()[pri:0, instance:com.kambaa.govt_environment.PagesTest.EMATPageTest@1134affc]" name="verifyEMATlink1" duration-ms="32981" started-at="2019-08-07T18:32:20Z" finished-at="2019-08-07T18:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEMATlink1 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.EMATPageTest@1134affc]" name="teardown" is-config="true" duration-ms="1001" started-at="2019-08-07T18:32:53Z" finished-at="2019-08-07T18:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.EMATPageTest@1134affc]" name="setup" is-config="true" duration-ms="60553" started-at="2019-08-07T18:32:54Z" finished-at="2019-08-07T18:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyEPREDlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.EMATPageTest@1134affc]" name="verifyEPREDlink" duration-ms="33726" started-at="2019-08-07T18:33:54Z" finished-at="2019-08-07T18:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEPREDlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.EMATPageTest@1134affc]" name="teardown" is-config="true" duration-ms="478" started-at="2019-08-07T18:34:28Z" finished-at="2019-08-07T18:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.EMATPageTest@1134affc]" name="setup" is-config="true" duration-ms="66736" started-at="2019-08-07T18:34:28Z" finished-at="2019-08-07T18:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyNLCPANDNRCPlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.EMATPageTest@1134affc]" name="verifyNLCPANDNRCPlink" duration-ms="31046" started-at="2019-08-07T18:35:35Z" finished-at="2019-08-07T18:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNLCPANDNRCPlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.EMATPageTest@1134affc]" name="teardown" is-config="true" duration-ms="269" started-at="2019-08-07T18:36:06Z" finished-at="2019-08-07T18:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.kambaa.govt_environment.PagesTest.EMATPageTest -->
+    </test> <!-- EMATPAGETEST -->
+    <test name="CLIMATECHAGEPAGETEST" duration-ms="492652" started-at="2019-08-07T13:06:06Z" finished-at="2019-08-07T13:14:19Z">
+      <class name="com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="setup" is-config="true" duration-ms="61704" started-at="2019-08-07T18:36:06Z" finished-at="2019-08-07T18:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyGCFlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="verifyGCFlink" duration-ms="34181" started-at="2019-08-07T18:37:08Z" finished-at="2019-08-07T18:37:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGCFlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="teardown" is-config="true" duration-ms="569" started-at="2019-08-07T18:37:42Z" finished-at="2019-08-07T18:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="setup" is-config="true" duration-ms="63904" started-at="2019-08-07T18:37:43Z" finished-at="2019-08-07T18:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyNAFCClink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="verifyNAFCClink" duration-ms="35283" started-at="2019-08-07T18:38:47Z" finished-at="2019-08-07T18:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNAFCClink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="teardown" is-config="true" duration-ms="597" started-at="2019-08-07T18:39:22Z" finished-at="2019-08-07T18:39:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="setup" is-config="true" duration-ms="62638" started-at="2019-08-07T18:39:23Z" finished-at="2019-08-07T18:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyNMSKCClink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="verifyNMSKCClink" duration-ms="29660" started-at="2019-08-07T18:40:25Z" finished-at="2019-08-07T18:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNMSKCClink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="teardown" is-config="true" duration-ms="368" started-at="2019-08-07T18:40:55Z" finished-at="2019-08-07T18:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="setup" is-config="true" duration-ms="73348" started-at="2019-08-07T18:40:55Z" finished-at="2019-08-07T18:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTNSAPCClink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="verifyTNSAPCClink" duration-ms="34263" started-at="2019-08-07T18:42:09Z" finished-at="2019-08-07T18:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTNSAPCClink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="teardown" is-config="true" duration-ms="233" started-at="2019-08-07T18:42:43Z" finished-at="2019-08-07T18:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="setup" is-config="true" duration-ms="60525" started-at="2019-08-07T18:42:43Z" finished-at="2019-08-07T18:43:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyclimatechangecelllink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="verifyclimatechangecelllink" duration-ms="34735" started-at="2019-08-07T18:43:44Z" finished-at="2019-08-07T18:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyclimatechangecelllink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest@2752f6e2]" name="teardown" is-config="true" duration-ms="635" started-at="2019-08-07T18:44:19Z" finished-at="2019-08-07T18:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.kambaa.govt_environment.PagesTest.Climate_ChangePagesTest -->
+    </test> <!-- CLIMATECHAGEPAGETEST -->
+    <test name="NGCPAGETEST" duration-ms="193509" started-at="2019-08-07T13:14:19Z" finished-at="2019-08-07T13:17:33Z">
+      <class name="com.kambaa.govt_environment.PagesTest.NGCPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.NGCPageTest@58ceff1]" name="setup" is-config="true" duration-ms="58872" started-at="2019-08-07T18:44:19Z" finished-at="2019-08-07T18:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyNGC_Sublink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.NGCPageTest@58ceff1]" name="verifyNGC_Sublink" duration-ms="34459" started-at="2019-08-07T18:45:18Z" finished-at="2019-08-07T18:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNGC_Sublink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.NGCPageTest@58ceff1]" name="teardown" is-config="true" duration-ms="295" started-at="2019-08-07T18:45:53Z" finished-at="2019-08-07T18:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.NGCPageTest@58ceff1]" name="setup" is-config="true" duration-ms="62643" started-at="2019-08-07T18:45:53Z" finished-at="2019-08-07T18:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyeco_clubslink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.NGCPageTest@58ceff1]" name="verifyeco_clubslink" duration-ms="37021" started-at="2019-08-07T18:46:55Z" finished-at="2019-08-07T18:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyeco_clubslink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.NGCPageTest@58ceff1]" name="teardown" is-config="true" duration-ms="201" started-at="2019-08-07T18:47:32Z" finished-at="2019-08-07T18:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.kambaa.govt_environment.PagesTest.NGCPageTest -->
+    </test> <!-- NGCPAGETEST -->
+    <test name="ENVISPAGETEST" duration-ms="395131" started-at="2019-08-07T13:17:33Z" finished-at="2019-08-07T13:24:08Z">
+      <class name="com.kambaa.govt_environment.PagesTest.ENVISPagesTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.ENVISPagesTest@3b6eb2ec]" name="setup" is-config="true" duration-ms="64570" started-at="2019-08-07T18:47:33Z" finished-at="2019-08-07T18:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAbout_ENVISlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.ENVISPagesTest@3b6eb2ec]" name="verifyAbout_ENVISlink" duration-ms="33844" started-at="2019-08-07T18:48:37Z" finished-at="2019-08-07T18:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAbout_ENVISlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.ENVISPagesTest@3b6eb2ec]" name="teardown" is-config="true" duration-ms="274" started-at="2019-08-07T18:49:11Z" finished-at="2019-08-07T18:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.ENVISPagesTest@3b6eb2ec]" name="setup" is-config="true" duration-ms="63276" started-at="2019-08-07T18:49:11Z" finished-at="2019-08-07T18:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyGRIDlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.ENVISPagesTest@3b6eb2ec]" name="verifyGRIDlink" duration-ms="33534" started-at="2019-08-07T18:50:15Z" finished-at="2019-08-07T18:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGRIDlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.ENVISPagesTest@3b6eb2ec]" name="teardown" is-config="true" duration-ms="202" started-at="2019-08-07T18:50:48Z" finished-at="2019-08-07T18:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.ENVISPagesTest@3b6eb2ec]" name="setup" is-config="true" duration-ms="62780" started-at="2019-08-07T18:50:48Z" finished-at="2019-08-07T18:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyGSDPlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.ENVISPagesTest@3b6eb2ec]" name="verifyGSDPlink" duration-ms="36264" started-at="2019-08-07T18:51:51Z" finished-at="2019-08-07T18:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGSDPlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.ENVISPagesTest@3b6eb2ec]" name="teardown" is-config="true" duration-ms="308" started-at="2019-08-07T18:52:27Z" finished-at="2019-08-07T18:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.ENVISPagesTest@3b6eb2ec]" name="setup" is-config="true" duration-ms="66294" started-at="2019-08-07T18:52:28Z" finished-at="2019-08-07T18:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySOERlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.ENVISPagesTest@3b6eb2ec]" name="verifySOERlink" duration-ms="32952" started-at="2019-08-07T18:53:34Z" finished-at="2019-08-07T18:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySOERlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.ENVISPagesTest@3b6eb2ec]" name="teardown" is-config="true" duration-ms="823" started-at="2019-08-07T18:54:07Z" finished-at="2019-08-07T18:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.kambaa.govt_environment.PagesTest.ENVISPagesTest -->
+    </test> <!-- ENVISPAGETEST -->
+    <test name="SEIAAPAGETEST" duration-ms="96863" started-at="2019-08-07T13:24:08Z" finished-at="2019-08-07T13:25:45Z">
+      <class name="com.kambaa.govt_environment.PagesTest.SEIAAPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.SEIAAPageTest@39ba5a14]" name="setup" is-config="true" duration-ms="63498" started-at="2019-08-07T18:54:08Z" finished-at="2019-08-07T18:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyEnvironment_clearance()[pri:0, instance:com.kambaa.govt_environment.PagesTest.SEIAAPageTest@39ba5a14]" name="verifyEnvironment_clearance" duration-ms="32973" started-at="2019-08-07T18:55:11Z" finished-at="2019-08-07T18:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnvironment_clearance -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.SEIAAPageTest@39ba5a14]" name="teardown" is-config="true" duration-ms="375" started-at="2019-08-07T18:55:44Z" finished-at="2019-08-07T18:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.kambaa.govt_environment.PagesTest.SEIAAPageTest -->
+    </test> <!-- SEIAAPAGETEST -->
+    <test name="Other_activitiesPAGETEST" duration-ms="95619" started-at="2019-08-07T13:25:45Z" finished-at="2019-08-07T13:27:20Z">
+      <class name="com.kambaa.govt_environment.PagesTest.Other_activitiesPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Other_activitiesPageTest@7e0ea639]" name="setup" is-config="true" duration-ms="64646" started-at="2019-08-07T18:55:45Z" finished-at="2019-08-07T18:56:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyOther_Activitieslink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Other_activitiesPageTest@7e0ea639]" name="verifyOther_Activitieslink" duration-ms="30745" started-at="2019-08-07T18:56:50Z" finished-at="2019-08-07T18:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOther_Activitieslink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.Other_activitiesPageTest@7e0ea639]" name="teardown" is-config="true" duration-ms="226" started-at="2019-08-07T18:57:20Z" finished-at="2019-08-07T18:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.kambaa.govt_environment.PagesTest.Other_activitiesPageTest -->
+    </test> <!-- Other_activitiesPAGETEST -->
+    <test name="PublicationPAGETEST" duration-ms="195853" started-at="2019-08-07T13:27:21Z" finished-at="2019-08-07T13:30:36Z">
+      <class name="com.kambaa.govt_environment.PagesTest.PublicationPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@2812cbfa]" name="setup" is-config="true" duration-ms="68612" started-at="2019-08-07T18:57:21Z" finished-at="2019-08-07T18:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifybookslink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@2812cbfa]" name="verifybookslink" duration-ms="53" started-at="2019-08-07T18:58:29Z" finished-at="2019-08-07T18:58:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifybookslink -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@6ea6d14e]" name="teardown" is-config="true" duration-ms="3152" started-at="2019-08-07T18:10:57Z" finished-at="2019-08-07T18:11:00Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@2812cbfa]" name="teardown" is-config="true" duration-ms="178" started-at="2019-08-07T18:58:29Z" finished-at="2019-08-07T18:58:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@6ea6d14e]" name="setup" is-config="true" duration-ms="78327" started-at="2019-08-07T18:11:00Z" finished-at="2019-08-07T18:12:18Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@2812cbfa]" name="setup" is-config="true" duration-ms="62896" started-at="2019-08-07T18:58:29Z" finished-at="2019-08-07T18:59:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyposterlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@6ea6d14e]" name="verifyposterlink" duration-ms="5" started-at="2019-08-07T18:12:18Z" finished-at="2019-08-07T18:12:18Z">
+        <test-method status="PASS" signature="verifyposterlink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@2812cbfa]" name="verifyposterlink" duration-ms="4" started-at="2019-08-07T18:59:32Z" finished-at="2019-08-07T18:59:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyposterlink -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@6ea6d14e]" name="teardown" is-config="true" duration-ms="826" started-at="2019-08-07T18:12:18Z" finished-at="2019-08-07T18:12:19Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@2812cbfa]" name="teardown" is-config="true" duration-ms="2231" started-at="2019-08-07T18:59:32Z" finished-at="2019-08-07T18:59:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@6ea6d14e]" name="setup" is-config="true" duration-ms="73858" started-at="2019-08-07T18:12:19Z" finished-at="2019-08-07T18:13:33Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@2812cbfa]" name="setup" is-config="true" duration-ms="61550" started-at="2019-08-07T18:59:35Z" finished-at="2019-08-07T19:00:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyreportslink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@6ea6d14e]" name="verifyreportslink" duration-ms="5" started-at="2019-08-07T18:13:33Z" finished-at="2019-08-07T18:13:33Z">
+        <test-method status="PASS" signature="verifyreportslink()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@2812cbfa]" name="verifyreportslink" duration-ms="2" started-at="2019-08-07T19:00:36Z" finished-at="2019-08-07T19:00:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyreportslink -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@6ea6d14e]" name="teardown" is-config="true" duration-ms="1828" started-at="2019-08-07T18:13:33Z" finished-at="2019-08-07T18:13:35Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kambaa.govt_environment.PagesTest.PublicationPageTest@2812cbfa]" name="teardown" is-config="true" duration-ms="247" started-at="2019-08-07T19:00:36Z" finished-at="2019-08-07T19:00:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.kambaa.govt_environment.PagesTest.PublicationPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- PublicationPAGETEST -->
+  </suite> <!-- GOVERNMENT_ENVIRONMENT_PROJECT -->
 </testng-results>
